@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://8f5n10x68dbl"]
+
+[ext_resource type="FontFile" uid="uid://c4oaiwxnqmnbo" path="res://Fonts/PF Videotext Pro Regular.ttf" id="1_2ni0e"]
+
+[resource]
+font = ExtResource("1_2ni0e")
+shadow_color = Color(0, 0, 0, 1)
+shadow_offset = Vector2(1, 2)

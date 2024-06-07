@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dbhlu0fo7fyod"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wnafe"]
+size = Vector2(32, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ttjtq"]
+size = Vector2(50, 50)
+
+[node name="Rock" type="StaticBody2D"]
+position = Vector2(272, 144)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_wnafe")
+
+[node name="Rock_Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Rock_Area2D"]
+shape = SubResource("RectangleShape2D_ttjtq")

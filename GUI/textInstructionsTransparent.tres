@@ -1,0 +1,8 @@
+[gd_resource type="LabelSettings" load_steps=2 format=3 uid="uid://bjx4mhl723atm"]
+
+[ext_resource type="FontFile" uid="uid://c4oaiwxnqmnbo" path="res://Fonts/PF Videotext Pro Regular.ttf" id="1_sjqfc"]
+
+[resource]
+font = ExtResource("1_sjqfc")
+font_size = 8
+font_color = Color(1, 1, 1, 0.501961)
